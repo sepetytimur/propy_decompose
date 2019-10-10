@@ -1,6 +1,6 @@
 from aplications.salary import calculate_salary
 from aplications.people import get_employees
-from datetime import datetime, date, time
+from datetime import datetime
 def main():
     z = datetime.today()
     a = calculate_salary()
